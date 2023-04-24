@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: var(--main-bg-color); 
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+        
+    height: 80px;
+
+    border-color: rgb(224, 224, 232);
+    line-height: 200px;
+border-style: solid;
+border-width: 1px;
+          
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 5px;
+    margin-left: 180px;
+    margin-right: 10px;
+
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+   
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    align-items: end;
+   
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+margin-right: -40px;
+margin-left: 100px;
+
+font-family: Roboto,Arial,sans-serif;
+letter-spacing: 0;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+
+
+nav ul li a:hover ::after{
+
+    content: '';
+    width: 0%;
+    height: 6px;
+    background: #ffffff;
+    display: block;
+    margin: auto;
+    transition: 1s;
+
+
+
+}
+nav ul li a:hover ::after{
+
+
+
+    width: 100%;
+
+}
+
+
+
+
+
+
+.search{
+    display: flex;
+    align-items: center;
+   
+}
+.container{
+
+    background-color: #fafafa;
+
+
+}
+
+.search input{
+    width:25vw;
+    height: 45px;
+    border-radius: 5px;
+    margin: 0 30px 0 56px 10px;
+    padding:0 12px;
+    float: left;
+    box-shadow: whitesmoke;
+   border-color:whitesmoke;
+   
+}
+
+nav1{
+    background: white;
+display: flex;
+justify-content: center;
+height: 125px;
+
+box-shadow: rgb(229, 229, 229);
+border-radius: 10px;
+
+border-bottom-color: rgb(243, 248, 247);
+
+background-color: #ffffff;
+justify-content: space-between;
+
+}
+.imgk{
+
+
+    margin: 2px 70px 0px 10px;
+    width: 80px;
+   
+  
+
+}
+
+
+
+.imgk5{
+    margin-left: 0px;
+}
+.imgk7{
+
+    margin-right: 0px;
+    margin-left: 200px;
+}
+
+
+
+
+nav1 li{
+
+list-style: none;
+
+
+
+}
+nav1 li a{
+
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    
+}
+
+
+
+.icon9{
+
+    margin-left: 250px;
+    position: relative;
+    display: inline-block;
+}
+
+
+.search img{
+
+    background-color: white;
+
+    width: 25px;
+    margin: 23px 34px 20px -62px;
+
+}
+
+.search button{
+   
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 40px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+margin-left: 30px;
+margin-right: 100px;
+
+
+}
+
+
+  
+  
+
+.slider{ 
+    width: 1000vw;
+    margin:  15px auto ;
+    overflow: hidden;
+    border-radius: 10px;
+  
+    height: 350px;
+    position: relative;
+    background-color: white;
+    
+    border-color: rgb(211, 211, 218);
+    line-height: 200px;
+border-style: solid;
+border-width: 10px;
+border-left: 0px;
+border-right: 0px;
+padding-bottom: 10px;
+
+
+
+   
+}
+.slider{ 
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+    position: relative;
+  
+}
+.titi{
+
+    width: 20vw;
+    margin:  15px auto ;
+
+    padding: 10px;
+    height: 200px;
+    position: relative;
+    
+}
+
+
+
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+    position: relative;
+}
+
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color); 
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
